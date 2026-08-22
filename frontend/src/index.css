@@ -4,19 +4,11 @@
 
 @layer base {
   body {
-<<<<<<< HEAD
-    @apply bg-navy-950 text-slate-100 antialiased font-sans selection:bg-indigo-500 selection:text-white;
-  }
-}
-
-/* Custom scrollbars */
-=======
     @apply bg-[#0B0F17] text-slate-100 antialiased font-sans min-h-screen selection:bg-indigo-500 selection:text-white;
   }
 }
 
-/* Custom Scrollbars */
->>>>>>> a46455f2533f3d5280c535476a12159845fb687c
+/* Custom scrollbars */
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
@@ -25,18 +17,6 @@
   background: #0B0F17;
 }
 ::-webkit-scrollbar-thumb {
-<<<<<<< HEAD
-  background: #1E293B;
-  border-radius: 4px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #334155;
-}
-
-/* Glassmorphism utilities */
-.glass-panel {
-  background: rgba(15, 23, 42, 0.75);
-=======
   background: #334155;
   border-radius: 9999px;
 }
@@ -44,14 +24,13 @@
   background: #475569;
 }
 
+/* Glassmorphism utilities */
 .glass-panel {
   background: rgba(21, 29, 42, 0.75);
->>>>>>> a46455f2533f3d5280c535476a12159845fb687c
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
-<<<<<<< HEAD
 
 .glass-card {
   background: rgba(30, 41, 59, 0.5);
@@ -68,5 +47,4 @@
 .glow-indigo {
   box-shadow: 0 0 25px -5px rgba(99, 102, 241, 0.4);
 }
-=======
->>>>>>> a46455f2533f3d5280c535476a12159845fb687c
+
