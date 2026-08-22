@@ -1,13 +1,30 @@
+<<<<<<< HEAD
 # Environment variables
 .env
 *.env
 !.env.example
 
 # Database
+=======
+.env
+.env.*
+!.env.example
+
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+node_modules/
+dist/
+build/
+
+>>>>>>> a46455f2533f3d5280c535476a12159845fb687c
 *.db
 *.sqlite
 *.sqlite3
 
+<<<<<<< HEAD
 # Python
 __pycache__/
 *.py[cod]
@@ -25,3 +42,12 @@ build/
 .DS_Store
 .vscode/
 .idea/
+=======
+.vscode/
+.idea/
+
+*.log
+.pytest_cache/
+.coverage
+
+>>>>>>> a46455f2533f3d5280c535476a12159845fb687c
